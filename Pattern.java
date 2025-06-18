@@ -209,39 +209,12 @@ output:
 *   *   *   *   * 
 */
 
+
 //9
 
-/*public class Pattern1
-{
- public static void main(String[]args)
-    {
-      for(int i=1;i<=5;i++)
-        {
-            for(int j=1;j<=5-i;j++)
-            {
-                System.out.print(" ");
-            }
-            for(int k=1;k<=(2*i-1);k++)
-            {
-                System.out.print("*");
-                
-            }
-            System.out.println();
-        }
-    }
-}
-output:
-     2 
-   2 4 
-  2 4 6 
- 2 4 6 8 
-2 4 6 8 10 */
-
-//10
 
 
-*/
- public  class Patterns1
+/*public  class Patterns1
 {
     public static void main(String[]args)
     {
@@ -263,17 +236,16 @@ output:
     }
 }
 output:
-I 
-I N 
-I N D 
-I N D I 
-I N D I A  */
+     2 
+   2 4 
+  2 4 6 
+ 2 4 6 8 
+2 4 6 8 10 */
+
+//10
 
 
-
-
-*/
-public class Pattern {
+*/public class Pattern {
     public static void main(String[] args) 
     {
         String word = "INDIA";
@@ -289,15 +261,20 @@ public class Pattern {
 }
 
 
-/*
-    * 
-   * * 
-  * * * 
- * * * * 
-* * * * * 
+ 
+output:
+I 
+I N 
+I N D 
+I N D I 
+I N D I A  */
 
-*/
-class Patterns
+
+ //11
+
+
+ 
+/*class Patterns1
 {
     public static void main(String[]args)
     {
@@ -318,20 +295,18 @@ class Patterns
         }
     }
 }
+output:
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
+*/
 
 
-/*
-      * 
-    * * * 
-  * * * * * 
-* * * * * * * 
-  * * * * * 
-    * * * 
-      * 
-*/      
+//12
 
-
-public class Pattern {
+/*public class Pattern {
     public static void main(String[] args) 
     {
         int rows = 4; 
@@ -363,19 +338,21 @@ public class Pattern {
         }
     }
 }
+output:
+      *
+    * * * 
+  * * * * * 
+* * * * * * * 
+  * * * * * 
+    * * * 
+      * 
+*/      
+
+       
+//14
 
 
-/*
-* * * * * 
-*       * 
-*       * 
-*       * 
-* * * * * 
-*/
-
-
-
-public class Pattern
+/*public class Pattern
 {
     public static void main(String[] args) 
     {
@@ -396,19 +373,19 @@ public class Pattern
         }
     }
 }
-
-
-/*
-    *     
-    *     
+output:
 * * * * * 
-    *     
-    *   
+*       * 
+*       * 
+*       * 
+* * * * * 
 */
 
 
+//15
 
-public class Pattern 
+
+/*public class Pattern 
 {
     public static void main(String[] args) 
     {
@@ -433,21 +410,19 @@ public class Pattern
         }
     }
 }
+output:
 
-
-
-/*
-*       * 
-  *   *   
+  *     
     *     
-  *   *   
-*       * 
-
+* * * * * 
+    *     
+    *   
 */
 
+   
+//16
 
-
-public class Pattern {
+/*public class Pattern {
     public static void main(String[] args) 
     {
         int n = 5; 
@@ -469,3 +444,12 @@ public class Pattern {
         }
     }
 }
+output:
+
+*       * 
+  *   *   
+    *     
+  *   *   
+*       * 
+
+*/
