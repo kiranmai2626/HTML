@@ -108,6 +108,12 @@ public class EvenNumbers {
         }
     }
 }
+output:
+10
+12
+14
+...
+100
 */
 
 /* 7.print 1 to 10 using the do-while loop
@@ -120,6 +126,17 @@ public class DoWhileExample {
         } while(i <= 10);
     }
 }
+output:
+  1
+2
+3
+4
+5
+6
+7
+8
+9
+10
 */
 
 /* 8.program for Armstrong number or not
@@ -148,7 +165,11 @@ public class ArmstrongChecker {
             System.out.println(original + " is not an Armstrong number.");
         }
     }
-}*/
+}
+Output: 
+ 153 is an Armstrong number.            
+*/
+
 /* 9.program to find the prime or not
 import java.util.Scanner;
 
@@ -176,11 +197,14 @@ public class PrimeChecker {
         return true;
     }
 }
+output:
+Enter a number: 20
+20 is not a prime number.
+
 */
 
 /* 10.program to palindrome or not
 import java.util.Scanner;
-
 public class PalindromeString {
     public static boolean isPalindrome(String s) {
         int i = 0, j = s.length() - 1;
@@ -201,11 +225,15 @@ public class PalindromeString {
 
         if (isPalindrome(s)) {
             System.out.println("\"" + s + "\" is a palindrome.");
-        } else {
+            }
+            else{
+        
             System.out.println("\"" + s + "\" is not a palindrome.");
-        }
-    }
-}
+            }
+            }
+output:
+Enter a string: hello
+"hello" is not a palindrome.         
 */
 
 /* 11.check whether number is even or odd using switch
@@ -229,11 +257,14 @@ public class EvenOddSwitch {
         }
     }
 }
+output:
+Enter a number: 8
+8 is even.
+        
 */
 
 /* 12.print gender program according to given M\F using switch
 import java.util.Scanner;
-
 public class GenderSwitch {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -252,6 +283,10 @@ public class GenderSwitch {
         }
     }
 }
+output:
+Enter gender (M/F): f
+Gender: Female
+            
 */
 
 /* 13.Program for multiple if else statement(largest number in 10,20 and 30)
@@ -267,4 +302,7 @@ public class LargestOfThree {
             System.out.println("Largest number is: " + c);
     }
 }
+            output:
+            Largest number is: 30
+
 */
